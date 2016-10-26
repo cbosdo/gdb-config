@@ -1,6 +1,7 @@
 # Copy this file to ~/.gdbinit and fix it
 
-set debug auto-load on
+# Uncomment to debug auto-load within gdb
+#set debug auto-load on
 
 set auto-load python-scripts
 add-auto-load-safe-path ~
